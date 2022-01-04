@@ -5,6 +5,11 @@
       "ProjectGuid": "a14872c8-a7c5-458a-a162-6b0a3a40ad3e",
       "DisplayName": "CuaHangDT",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

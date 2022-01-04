@@ -61,14 +61,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMain.cs">
+    <Compile Include="Forms\frmChitietHDB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
+    <Compile Include="Forms\frmChitietHDB.Designer.cs">
+      <DependentUpon>frmChitietHDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmchitietHDN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmchitietHDN.Designer.cs">
+      <DependentUpon>frmchitietHDN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHoadonban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHoadonban.Designer.cs">
+      <DependentUpon>frmHoadonban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHoadonnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHoadonnhap.Designer.cs">
+      <DependentUpon>frmHoadonnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKhachhang.Designer.cs">
+      <DependentUpon>frmKhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLoai.Designer.cs">
+      <DependentUpon>frmLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmManhinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmManhinh.Designer.cs">
+      <DependentUpon>frmManhinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNhacungcap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNhacungcap.Designer.cs">
+      <DependentUpon>frmNhacungcap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNhanhieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNhanhieu.Designer.cs">
+      <DependentUpon>frmNhanhieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNhanvien.Designer.cs">
+      <DependentUpon>frmNhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmQue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmQue.Designer.cs">
+      <DependentUpon>frmQue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSanpham.Designer.cs">
+      <DependentUpon>frmSanpham.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

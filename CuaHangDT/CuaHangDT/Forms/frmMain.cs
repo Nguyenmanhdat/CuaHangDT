@@ -16,5 +16,10 @@ namespace CuaHangDT
         {
             InitializeComponent();
         }
+
+        private void tÌmKiếmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
