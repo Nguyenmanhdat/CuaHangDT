@@ -139,6 +139,7 @@
     <Compile Include="Forms\frmSanpham.Designer.cs">
       <DependentUpon>frmSanpham.cs</DependentUpon>
     </Compile>
+    <Compile Include="functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmMain.resx">
