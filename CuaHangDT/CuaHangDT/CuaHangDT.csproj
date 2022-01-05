@@ -139,11 +139,24 @@
     <Compile Include="Forms\frmSanpham.Designer.cs">
       <DependentUpon>frmSanpham.cs</DependentUpon>
     </Compile>
+    <Compile Include="functionN.cs" />
     <Compile Include="functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNhacungcap.resx">
+      <DependentUpon>frmNhacungcap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNhanvien.resx">
+      <DependentUpon>frmNhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmQue.resx">
+      <DependentUpon>frmQue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSanpham.resx">
+      <DependentUpon>frmSanpham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

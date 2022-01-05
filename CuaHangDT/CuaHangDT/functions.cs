@@ -17,7 +17,7 @@ namespace CuaHangDT
         // tạo kết nối
         public static void Connect()
         {
-            conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\Chuong7\BTChuong7\BTChuong7\Database\qlbh.mdf;Integrated Security=True;Connect Timeout=30";
+            conString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\Database\CuaHangDienThoai.mdf; Integrated Security = True; Connect Timeout = 30";
             // doi tuong ket noi
             con = new SqlConnection(conString);
             con.Open();

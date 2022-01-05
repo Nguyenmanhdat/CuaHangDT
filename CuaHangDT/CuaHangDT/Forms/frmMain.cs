@@ -21,5 +21,35 @@ namespace CuaHangDT
         {
 
         }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNhanvien f = new frmNhanvien();
+            f.Show();
+         
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            functions.Connect();
+        }
+
+        private void quêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQue f=new frmQue();
+            f.Show();
+        }
+
+        private void nhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNhacungcap f=new frmNhacungcap();
+            f.Show();
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            functions.Disconnect();
+            Application.Exit();
+        }
     }
 }
