@@ -1,0 +1,16 @@
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai.mdf
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai_log.ldf
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe.config
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.pdb
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmMain.resources
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.Properties.Resources.resources
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.TimKiemHDBan.resources
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.exe
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.pdb
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.BCdsspthang.resources
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.ResolveComReference.cache

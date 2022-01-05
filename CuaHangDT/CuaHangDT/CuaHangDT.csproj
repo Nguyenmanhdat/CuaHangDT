@@ -61,88 +61,97 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\frmChitietHDB.cs">
+    <Compile Include="BCdsspthang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmChitietHDB.Designer.cs">
-      <DependentUpon>frmChitietHDB.cs</DependentUpon>
+    <Compile Include="BCdsspthang.Designer.cs">
+      <DependentUpon>BCdsspthang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmchitietHDN.cs">
+    <Compile Include="Hóa đơn\frmHoadonban.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmchitietHDN.Designer.cs">
-      <DependentUpon>frmchitietHDN.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\frmHoadonban.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\frmHoadonban.Designer.cs">
+    <Compile Include="Hóa đơn\frmHoadonban.Designer.cs">
       <DependentUpon>frmHoadonban.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmHoadonnhap.cs">
+    <Compile Include="Hóa đơn\frmHoadonnhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmHoadonnhap.Designer.cs">
+    <Compile Include="Hóa đơn\frmHoadonnhap.Designer.cs">
       <DependentUpon>frmHoadonnhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmKhachhang.cs">
+    <Compile Include="Danh mục\frmKhachhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmKhachhang.Designer.cs">
+    <Compile Include="Danh mục\frmKhachhang.Designer.cs">
       <DependentUpon>frmKhachhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmLoai.cs">
+    <Compile Include="Danh mục\frmLoai.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmLoai.Designer.cs">
+    <Compile Include="Danh mục\frmLoai.Designer.cs">
       <DependentUpon>frmLoai.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmMain.cs">
+    <Compile Include="Hóa đơn\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmMain.Designer.cs">
+    <Compile Include="Hóa đơn\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmManhinh.cs">
+    <Compile Include="Danh mục\frmManhinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmManhinh.Designer.cs">
+    <Compile Include="Danh mục\frmManhinh.Designer.cs">
       <DependentUpon>frmManhinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmNhacungcap.cs">
+    <Compile Include="Danh mục\frmNhacungcap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmNhacungcap.Designer.cs">
+    <Compile Include="Danh mục\frmNhacungcap.Designer.cs">
       <DependentUpon>frmNhacungcap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmNhanhieu.cs">
+    <Compile Include="Danh mục\frmNhanhieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmNhanhieu.Designer.cs">
+    <Compile Include="Danh mục\frmNhanhieu.Designer.cs">
       <DependentUpon>frmNhanhieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmNhanvien.cs">
+    <Compile Include="Danh mục\frmNhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmNhanvien.Designer.cs">
+    <Compile Include="Danh mục\frmNhanvien.Designer.cs">
       <DependentUpon>frmNhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmQue.cs">
+    <Compile Include="Danh mục\frmQue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmQue.Designer.cs">
+    <Compile Include="Danh mục\frmQue.Designer.cs">
       <DependentUpon>frmQue.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmSanpham.cs">
+    <Compile Include="Danh mục\frmSanpham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmSanpham.Designer.cs">
+    <Compile Include="Danh mục\frmSanpham.Designer.cs">
       <DependentUpon>frmSanpham.cs</DependentUpon>
     </Compile>
     <Compile Include="functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\frmMain.resx">
+    <Compile Include="Tìm kiếm\TimKiemHDBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tìm kiếm\TimKiemHDBan.Designer.cs">
+      <DependentUpon>TimKiemHDBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tìm kiếm\TimKiemHDNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tìm kiếm\TimKiemHDNhap.Designer.cs">
+      <DependentUpon>TimKiemHDNhap.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BCdsspthang.resx">
+      <DependentUpon>BCdsspthang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hóa đơn\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -153,7 +162,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tìm kiếm\TimKiemHDBan.resx">
+      <DependentUpon>TimKiemHDBan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -175,6 +188,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CuaHangDienThoai.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\b5ce40cb0276f5b60d50ed38243683be.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -187,6 +201,35 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
