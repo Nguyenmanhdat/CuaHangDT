@@ -17,7 +17,7 @@ namespace CuaHangDT
         // tạo kết nối
         public static void Connect()
         {
-            conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\Chuong7\BTChuong7\BTChuong7\Database\qlbh.mdf;Integrated Security=True;Connect Timeout=30";
+            conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\BTL\CuaHangDT\CuaHangDT\CuaHangDT\Database\CuaHangDienThoai.mdf;Integrated Security=True";
             // doi tuong ket noi
             con = new SqlConnection(conString);
             con.Open();
@@ -129,30 +129,46 @@ namespace CuaHangDT
         public static string CreateKey(string tiento)
         {
             string key = tiento;
-            string[] partsday;
-            partsday = DateTime.Now.ToShortDateString().Split('/');
-            string d = string.Format("{0}{1}{2}", partsday[0], partsday[1], partsday[2]);
+            string[] partsDay;
+            partsDay = DateTime.Now.ToShortDateString().Split('/');
+            //Ví dụ 07/08/2009
+            string d = String.Format("{0}{1}{2}", partsDay[0],
+            partsDay[1], partsDay[2]);
             key = key + d;
             string[] partsTime;
             partsTime = DateTime.Now.ToLongTimeString().Split(':');
-            if (partsTime[2].Substring(2).Trim() == "PM")
-            {
-                partsTime[0] = ConvertTimeTo24(partsTime[0]);
-            }
-            if (partsTime[2].Substring(2).Trim() == "AM")
-            {
-                if (partsTime[0].Length == 1)
-                {
+            //Ví dụ 7:08:03 PM hoặc 7:08:03 AM
+            if (partsTime[2].Substring(2).Trim() == "PM") {
+                partsTime[0] = ConvertTimeTo24(partsTime[0]); }
 
+            if (partsTime[2].Substring(2).Trim() == "AM") {
+                if (partsTime[0].Length == 1)
                     partsTime[0] = "0" + partsTime[0];
-                }
-            }
-            partsTime[2] = partsTime[2].Remove(2, 3);
+            //Xóa ký tự trắng và PM hoặc AM
+            partsTime[2] = partsTime[2].Remove(2,3); }
             string t;
-            t = string.Format("_{0}{1}{2}", partsTime[0], partsTime[1], partsTime[2]);
+            t = String.Format("_{0}{1}{2}", partsTime[0], partsTime[1],
+           partsTime[2]);
             key = key + t;
             return key;
 
+        }
+        public static string tangkey(string sql, string tiento)
+        {
+            string key = tiento;
+            SqlDataAdapter Mydata = new SqlDataAdapter(sql, functions.con);
+            DataTable table = new DataTable();
+            Mydata.Fill(table);
+            if (table.Rows.Count <= 0)
+            {
+                key = tiento + "1";
+            }
+            else
+            {
+                string soma = table.Rows[0][0].ToString();
+                key = key + soma;
+            }
+            return key;
         }
         public static string ConvertTimeTo24(string a)
         {
