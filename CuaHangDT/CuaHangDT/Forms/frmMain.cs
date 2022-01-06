@@ -21,5 +21,16 @@ namespace CuaHangDT
         {
 
         }
+
+        private void hóaĐơnBánToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHoadonban a = new frmHoadonban();
+            a.Show();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            functions.Connect();
+        }
     }
 }
