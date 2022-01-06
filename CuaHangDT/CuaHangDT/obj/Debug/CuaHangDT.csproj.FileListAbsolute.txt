@@ -1,0 +1,17 @@
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai.mdf
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai_log.ldf
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe.config
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.pdb
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.AssemblyReference.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.SuggestedBindingRedirects.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmMain.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmNhanvien.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.Properties.Resources.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.GenerateResource.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.CoreCompileInputs.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.exe
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.pdb
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmNhacungcap.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmQue.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmSanpham.resources
