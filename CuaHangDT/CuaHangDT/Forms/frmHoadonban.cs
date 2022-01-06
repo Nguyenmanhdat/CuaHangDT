@@ -63,7 +63,7 @@ namespace CuaHangDT
         {
             string str;
             str = "SELECT Ngayban FROM tblHDBan WHERE MaHDB = N'" + txtMaHoaDon.Text + "'";
-            mskNgayBan.Text = functions.ConvertTimeTo24(functions.GetFileValues(str));
+            mskNgayBan.Text = (functions.GetFileValues(str));
 
             str = "SELECT MaNV FROM tblHDBan WHERE MaHDB = N'" + txtMaHoaDon.Text + "'";
             cboMaNhanVien.Text = functions.GetFileValues(str);
@@ -448,7 +448,8 @@ MessageBoxButtons.OK, MessageBoxIcon.Information);
             btnHuy.Enabled = true;
             btnLuu.Enabled = true;
             btnIn.Enabled = true;
-            
+            lblBangChu.Text ="Bằng chữ:"+functions.ChuyenSoSangChu(txtTongTien.Text);
+
         }
 
         private void txtSoLuong_KeyPress(object sender, KeyPressEventArgs e)

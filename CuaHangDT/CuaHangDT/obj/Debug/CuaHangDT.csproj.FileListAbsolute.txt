@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai.mdf
 C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai_log.ldf
 C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe.config
@@ -13,3 +14,22 @@ C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangD
 C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.pdb
 C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmHoadonban.resources
 C:\Users\ASUS\Documents\GitHub\CuaHang_DT\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.ResolveComReference.cache
+=======
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai.mdf
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\Database\CuaHangDienThoai_log.ldf
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe.config
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.exe
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\bin\Debug\CuaHangDT.pdb
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.AssemblyReference.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.SuggestedBindingRedirects.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmMain.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmNhanvien.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.Properties.Resources.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.GenerateResource.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.csproj.CoreCompileInputs.cache
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.exe
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.pdb
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmNhacungcap.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmQue.resources
+D:\nam hai\cslt2\btl\qldt1\CuaHangDT\CuaHangDT\obj\Debug\CuaHangDT.frmSanpham.resources
+>>>>>>> 77cc465dafd1da7d91a5d8a2f0e4da47680b7218
